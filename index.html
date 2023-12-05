@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Your Page Title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер</div>
+                <div class="card-weight">263 г</div>
+                <div class="card-price">от 269 ₽</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер с курицей</div>
+                <div class="card-weight">296 г</div>
+                <div class="card-price">от 239 ₽</div>
+            </div>
+        </div>
+        <!-- Добавьте другие блоки аналогично -->
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер</div>
+                <div class="card-weight">263 г</div>
+                <div class="card-price">от 269 ₽</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер с курицей</div>
+                <div class="card-weight">296 г</div>
+                <div class="card-price">от 239 ₽</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер</div>
+                <div class="card-weight">263 г</div>
+                <div class="card-price">от 269 ₽</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер с курицей</div>
+                <div class="card-weight">296 г</div>
+                <div class="card-price">от 239 ₽</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер</div>
+                <div class="card-weight">263 г</div>
+                <div class="card-price">от 269 ₽</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер с курицей</div>
+                <div class="card-weight">296 г</div>
+                <div class="card-price">от 239 ₽</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер</div>
+                <div class="card-weight">263 г</div>
+                <div class="card-price">от 269 ₽</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <img class="card-image" src="https://via.placeholder.com/121x121" />
+                <div class="card-title">Скандинавский бургер с курицей</div>
+                <div class="card-weight">296 г</div>
+                <div class="card-price">от 239 ₽</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Здесь могут быть другие блоки, если их количество нечетное -->
+    </div>
+    <div class="footer-container">
+        <div class="footer-item">
+            <div>Заказ</div>
+        </div>
+        <div class="footer-item">
+            <div>Акции</div>
+        </div>
+        <div class="footer-item">
+            <div>Меню</div>
+        </div>
+    </div>
+    <script>
+        // JavaScript for sticky footer
+        window.addEventListener('scroll', function () {
+            const footer = document.querySelector('.footer-container');
+            const isScrolling = window.scrollY > 0;
+            footer.style.position = isScrolling ? 'relative' : 'fixed';
+        });
+    </script>
+</body>
+</html>
